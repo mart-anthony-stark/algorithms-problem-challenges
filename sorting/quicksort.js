@@ -6,26 +6,22 @@ const rl = readline.createInterface({
 
 // Quick sort is a comparison sort, meaning that it can sort items of any type for
 // which a "less-than" relation (formally, a total order) is defined.
-const sort = (arr) => {
-  if (arr.length <= 1) return arr;
+function sort(array) {
+  if (array.length <= 1) {
+    return array;
+  }
+
+  let pivot = array[0];
 
   let left = [];
   let right = [];
 
-  let newArray = [];
-  const pivot = arr.pop();
-  const len = arr.length;
-
-  for (let i = 0; i < len; i++) {
-    if (arr[i] <= pivot) {
-      left.push(arr[i]);
-    } else {
-      right.push(arr[i]);
-    }
+  for (let i = 1; i < array.length; i++) {
+    array[i] < pivot ? left.push(array[i]) : right.push(array[i]);
   }
 
-  return newArray.concat(sort(left), pivot, sort(right));
-};
+  return sort(left).concat(pivot, sort(right));
+}
 
 rl.question(
   "Enter numbers separated by commas\nEx. 4,6,1,5,7,2\n",
