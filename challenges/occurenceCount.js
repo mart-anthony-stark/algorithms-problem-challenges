@@ -7,4 +7,4 @@ const occurence = (originalStr, searchStr) => {
   }
   return count;
 };
-console.log(occurence("He's my king from this day until his last day", "day"));
+module.exports = occurence;
