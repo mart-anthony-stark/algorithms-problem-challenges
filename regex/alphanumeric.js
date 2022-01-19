@@ -1,5 +1,5 @@
 const alphaNumeric = (str) => {
-  const reg = /[a-zA-Z0-9]/;
+  const reg = /^[a-z0-9]+$/i;
   return reg.test(str);
 };
-console.log(alphaNumeric("asdasddsa"));
+module.exports = alphaNumeric
