@@ -20,10 +20,4 @@ const isPrime2 = (n) => {
 
   return true;
 };
-console.log(isPrime2(1));
-console.log(isPrime2(2));
-console.log(isPrime2(3));
-console.log(isPrime2(4));
-console.log(isPrime2(5));
-console.log(isPrime2(6));
-console.log(isPrime2(7));
+module.exports = isPrime;
