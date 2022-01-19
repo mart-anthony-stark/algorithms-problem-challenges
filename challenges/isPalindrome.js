@@ -4,3 +4,4 @@ const isPalindrome = (str) => {
     .reduce((curr, ch) => (curr = ch + curr), "");
   return reversedString === str;
 };
+module.exports = isPalindrome;
