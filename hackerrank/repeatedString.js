@@ -1,5 +1,4 @@
-function repeatedString(s, n) {
-  // Write your code here
+const repeatedString = (s, n) => {
   const min = 1;
   const maxs = 100;
   const maxn = 1000000000000;
