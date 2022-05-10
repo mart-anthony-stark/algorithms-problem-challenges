@@ -31,5 +31,7 @@ const caesarShift = (str, amount) => {
   return output;
 };
 
-console.log(caesarShift("id:EMP42,name:John Doe,email:johndoe@gmail.com", 27));
-console.log(caesarShift("je:FNQ42,obnf:Kpio Epf,fnbjm:kpioepf@hnbjm.dpn", -27));
+// console.log(caesarShift("id:EMP42,name:John Doe,email:johndoe@gmail.com", 27));
+// console.log(caesarShift("je:FNQ42,obnf:Kpio Epf,fnbjm:kpioepf@hnbjm.dpn", -27));
+
+module.exports = caesarShift;
