@@ -81,4 +81,72 @@ const questions = [
       "OOP stands for Object-Oriented Programming System, a paradigm that provides concepts such as objects, classes, and inheritance.",
     ],
   },
+  {
+    _id: 11,
+    question: "What are the concepts introduced in OOPs?",
+    answers: [
+      "Object - A real-world entity having a particular state and behavior. We can define it as an instance of a class.",
+      "Class - A logical entity that defines the blueprint from which an object can be created or instantiated.",
+      "Inheritance - A concept that refers to an object gaining all the properties and behaviors of a parent object. It provides code reusability.",
+      "Polymorphism - A concept that allows a task to be performed in different ways. In Java, we use method overloading and method overriding to achieve polymorphism.",
+      "Abstraction - A concept that hides the internal details of an application and only shows the functionality. In Java, we use abstract class and interface to achieve abstraction.",
+      "Encapsulation - A concept that refers to the wrapping of code and data together into a single unit.",
+    ],
+  },
+  {
+    _id: 12,
+    question: "Explain what a Binary Search Tree is.",
+    answers: [
+      "A binary search tree is used to store data in a manner that it can be retrieved very efficiently.",
+      "The left sub-tree contains nodes whose keys are less than the node’s key value.",
+      "The right sub-tree contains nodes whose keys are greater than or equal to the node’s key value",
+    ],
+  },
+  {
+    _id: 13,
+    question: "Explain Doubly Linked Lists",
+    answers: [
+      "Doubly linked lists are categorized as a special type of linked list in which traversal across the data elements can be done in both directions.",
+      "This is made possible by the presence of two links in every node, one that links to the node next to it and another that connects to the node before it.",
+    ],
+  },
+  {
+    _id: 14,
+    question: "What is a Graph?",
+    answers: [
+      "A graph is a particular type of data structure that contains a set of ordered pairs.",
+      "The ordered pairs in a graph are also known as edges or arcs and are most commonly used to connect nodes where the data can be stored and retrieved.",
+    ],
+  },
+  {
+    _id: 15,
+    question: "What is a Deque?",
+    answers: [
+      "A deque is a double-ended queue.",
+      "This is a structure in which elements can be inserted or removed from either end.",
+    ],
+  },
+  {
+    _id: 16,
+    question: "Which sorting algorithm is the best?",
+    answers: [
+      "There are many types of sorting algorithms: bubble sort, quick sort, balloon sort, merge sort, radix sort, and more.",
+      "No algorithm can be considered as the best or fastest because they have designed each for a specific type of data structure where it performs the best",
+    ],
+  },
+  {
+    _id: 17,
+    question: "How does variable declaration affect memory?",
+    answers: [
+      "The amount of memory that is to be reserved or allocated depends on the data type being stored in that variable.",
+      "For example, if a variable is declared to be “integer type”, 32 bits of memory storage will then be reserved for that particular variable.",
+    ],
+  },
+  {
+    _id: 18,
+    question: "What are dynamic data structures?",
+    answers: [
+      "Dynamic data structures have the feature where they expand and contract as a program runs. It provides a very flexible method of data manipulation because adjusts based on the size of the data to be manipulated.",
+    ],
+  },
 ];
